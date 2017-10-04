@@ -14,8 +14,8 @@ def ed(a, b, m, n):
         memo[m, n] = a
         return a
 
-a = 'lamps'
-b = 'Mathematica'
+a = 'superhuman'
+b = 'batman'
 before = t.time()
 ans = ed(a, b, len(a), len(b))
 after = t.time()
